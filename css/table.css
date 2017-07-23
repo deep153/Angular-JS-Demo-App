@@ -1,0 +1,88 @@
+/* Top nav and header */
+
+.my-navbar-top #logo {
+padding:0px 0px 0px 20px; 
+}
+
+.my-navbar-top {
+    border-color: #e67e22;
+    /*background-color: #f39c12;*/
+    background-color: #003366;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+    background-image: linear-gradient(top, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+    border-bottom: 3px solid #e67e22;
+}
+
+.my-navbar-top .navbar-brand {
+    color: #fff;
+}
+
+.my-navbar-top .navbar-nav > li > a,
+.masthead a {
+    color: #fff;
+	font-weight: 600;
+}
+
+.my-navbar-top .navbar-nav > li > a:hover,
+.delfoo-navbar-top .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #003366;
+}
+
+.my-navbar-top .navbar-nav > .active > a,
+.my-navbar-top .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #003366;
+}
+
+.my-navbar-top .nav .open > a,
+.nav .open > a:hover,
+.my-navbar-top .nav .open > a:focus {
+    color: #fff;
+    background-color: #003366;
+}
+
+.my-navbar-top .navbar-toggle {
+    border-color: #b84d45;
+}
+
+.my-navbar-top .navbar-toggle:hover {
+    border-color: #b84d45;
+    background-color: #b84d45;
+}
+
+.my-navbar-top .navbar-collapse {
+    border: none;
+}
+
+.my-navbar-top .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.my-navbar-top .nav .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.my-navbar-top .nav .open > a,
+.nav .open > a:hover .caret,
+.my-navbar-top .nav .open > a:focus .caret,
+.my-navbar-top .nav .active .caret,
+.my-navbar-top .nav a:hover .caret,
+.my-navbar-top .nav a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.my-navbar-top .dropdown-menu > li > a:hover,
+.my-navbar-top .dropdown-menu > li > a:focus,
+.my-navbar-top .dropdown-menu > .active > a,
+.my-navbar-top .dropdown-menu > .active > a:hover,
+.my-navbar-top .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #003366;
+}
